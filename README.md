@@ -1,4 +1,4 @@
-# Educational Password Cracker Demo
+# Educational Password Cracker 
 
 ## ⚠️ IMPORTANT WARNING ⚠️
 
