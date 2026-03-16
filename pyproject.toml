@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "password-cracker-demo"
+version = "1.0.0"
+description = "Educational password cracker GUI demo for cybersecurity education"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.6"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+    "Topic :: Education",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/yourusername/password-cracker-demo"
+Repository = "https://github.com/yourusername/password-cracker-demo.git"
+Issues = "https://github.com/yourusername/password-cracker-demo/issues"
+
+[project.scripts]
+password-cracker-demo = "password_cracker_demo.main:main"
+
+[tool.setuptools]
+packages = ["password_cracker_demo"]
+package-dir = {"" = "src"}
+
+[tool.setuptools.package-data]
+"password_cracker_demo" = ["../../data/*.txt"]

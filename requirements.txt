@@ -1,0 +1,4 @@
+# Requirements for Educational Password Cracker Demo
+# Note: Tkinter is part of Python standard library on most systems
+# If missing, install with: sudo apt-get install python3-tk (on Ubuntu/Debian)
+# All other modules (hashlib, time, threading) are standard library
