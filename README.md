@@ -1,7 +1,5 @@
 # Educational Password Cracker 
 
-## ⚠️ IMPORTANT WARNING ⚠️
-
 **THIS IS STRICTLY FOR EDUCATIONAL PURPOSES ONLY!**
 
 This project is a demonstration tool created for cybersecurity education and college projects. It simulates password cracking to illustrate security concepts.
